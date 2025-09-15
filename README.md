@@ -9,11 +9,16 @@ This project evaluates the economic effects of the U.S. trade war and the disban
 - I document heterogeneity by border vs non-border areas and education.
 - All figures are reproducible with the scripts below; a lightweight optional report is included.
 
+
 ## Key Findings
 1) Trade contraction: largest declines in Petroleum & Coal (324), Transportation Equipment (336), and Computer & Electronic Products (334).
+![Industries with the largest negative change in trade (named by NAICS)](graphs/industry%20with%20largest%20neg%20change.png)
 2) Education gradient: higher education → higher log(wage), consistent across border status.
+![Wages by education, border vs non-border (2019-2020)](graphs/wages%20by%20education.png)
 3) Time shift: from 2019 to 2020, distributions move slightly with some group differences (see change‑bars).
+![Change in mean log(wage), 2019-2020, border vs non-border](graphs/change%20in%20wage.png)
 4) Shock gradient: raw decile means are jagged (composition); weighted medians are closer and more stable.
+![Wages across trade-shock deciles (weighted mean & median, with sample size n)](graphs/wage%20across%20trade%20shock%20decile.png)
 
 
 ## Data Sources  
