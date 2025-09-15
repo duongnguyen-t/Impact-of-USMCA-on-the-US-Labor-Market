@@ -7,7 +7,14 @@ This project evaluates the economic effects of the U.S. trade war and the disban
 - I link industry-level trade shocks to individual wages using IPUMS microdata (~2.87M rows) for 2019–2020.
 - Raw wage means across shock bins are non‑monotonic; results become cleaner after trimming extremes, weighting, and adding controls.
 - I document heterogeneity by border vs non-border areas and education.
-- All figures are reproducible with the scripts below; a lightweight optional report is included. 
+- All figures are reproducible with the scripts below; a lightweight optional report is included.
+
+## Key Findings
+1) Trade contraction: largest declines in Petroleum & Coal (324), Transportation Equipment (336), and Computer & Electronic Products (334).
+2) Education gradient: higher education → higher log(wage), consistent across border status.
+3) Time shift: from 2019 to 2020, distributions move slightly with some group differences (see change‑bars).
+4) Shock gradient: raw decile means are jagged (composition); weighted medians are closer and more stable.
+
 
 ## Data Sources  
 - U.S. Census Bureau (Trade & Employment Data)  
