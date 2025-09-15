@@ -3,10 +3,11 @@
 ## Overview  
 This project evaluates the economic effects of the U.S. trade war and the disbanding of NAFTA. It analyzes how tariffs influence industries, employment, and supply chains using econometric modeling and large-scale trade datasets.
 
-## Key Findings  
-- Analyzed **trade volume shifts** and employment trends pre- and post-NAFTA using **time-series regression models**.  
-- Automated **data cleaning & transformation**, reducing processing time by 30%.  
-- Examined industry-specific tariff impacts with Python (pandas, NumPy) and Stata.  
+## TL;DR (CHECK REPORT VISUALS)
+- I link industry-level trade shocks to individual wages using IPUMS microdata (~2.87M rows) for 2019–2020.
+- Raw wage means across shock bins are non‑monotonic; results become cleaner after trimming extremes, weighting, and adding controls.
+- I document heterogeneity by border vs non-border areas and education.
+- All figures are reproducible with the scripts below; a lightweight optional report is included. 
 
 ## Data Sources  
 - U.S. Census Bureau (Trade & Employment Data)  
@@ -17,7 +18,12 @@ This project evaluates the economic effects of the U.S. trade war and the disban
 - **Python**: pandas, NumPy, BeautifulSoup (for web scraping)  
 - **Data Cleaning & Analysis**: pandas, NumPy  
 - **Statistical Modeling**: Stata, R  
-- **Regression Analysis**: scikit-learn, statsmodels  
+- **Regression Analysis**: scikit-learn, statsmodels
+
+## Limitations
+- Observational design; not causal without stronger identification.
+- Industry composition across exposure bins can confound raw means; we therefore show medians, weights, and controlled residual plots.
+- Mapping between shocks and NAICS codes may miss a subset of industries; see notebook for coverage rates.
 
 ## How to Run  
 1. Clone the repository:  
