@@ -3,7 +3,7 @@
 ## Overview  
 This project evaluates the economic effects of the U.S. trade war and the disbanding of NAFTA. It analyzes how tariffs influence industries, employment, and supply chains using econometric modeling and large-scale trade datasets.
 
-## TL;DR (CHECK REPORT VISUALS)
+## TL;DR 
 - I link industry-level trade shocks to individual wages using IPUMS microdata (~2.87M rows) for 2019–2020.
 - Raw wage means across shock bins are non‑monotonic; results become cleaner after trimming extremes, weighting, and adding controls.
 - I document heterogeneity by border vs non-border areas and education.
